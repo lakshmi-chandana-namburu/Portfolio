@@ -1,165 +1,301 @@
 <html>
     <head>
     <style>
+        .bd{
+            color:orange;
+            text-decoration: dotted;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
         .h{
-            text-align: right; 
-            margin-right:5%;        
+            text-align:center;        
         }
         .h a{
             color:white;
             padding: 13px 20px;
-            font-size: 17px;
+            font-size: 18px;
             text-decoration: none;
+            font-family: cursive;
             font-weight: bold;
         }
         .h a:hover{
-            color:black;
+            color:orange;
+            font-size: 22px;
+            text-transform:uppercase;
         }
         .c{
-            margin-top:6%;
+            margin-top:4%;
             margin-left:7%;
-            color:rgb(236, 97, 121);
+            margin-right: 7%;
+            margin-bottom: 6%;
+            border: 1px solid whitesmoke;
+            border-radius: 15px 15px 15px 15px;
+            border-style: dotted;
         }
-        .i{
+        .s{
+            color: yellow;
+            font-size:large;
+            margin-left: 10%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .s1{
+            color:aqua;
+            font-size:smaller;
+            margin-left: 10%;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .s2{
             width:40%;
             height:45%;
             position: absolute;
             right:50px;
             bottom:70px;
         }
-        .i img{
+        .s2 h2{
             position:absolute;
-            left:40%;
-            height:140%;
-            width:50%;
-            transform:translate(-45%);
-            bottom:0;
+            left:25%;
+            height:90%;
+            width:45%;
+            bottom:5%;
+            color:white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
         }
-        .data1{
-            margin-left: 7%;
-            margin-top: 10%;
+        .s2 button{
+            background-color: yellow;
+            color:black;
+            border-radius: 10px 25px 10px 25px;
+            height:55;
+            width:95;
+            text-shadow: black;
+            font-weight: bold;
+            font-size:20px;
+        }
+        .s2 a{
+            text-decoration: none;
+            color:black;
         }
 .certifications{
-    width: 100%;
-    background: url("https://wallpaperaccess.com/full/732270.png");
-    background-position:center;
-    height:100%;
-    position: relative;
-    margin-top:30%;
+    margin-top:-5%;
+    margin-left:7%;
+    margin-right: 7%;
+    margin-bottom: 6%;
+    border:1px solid whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+    border-style: dotted;
 }
+.certifications h1{
+    color:yellow;
+    text-align: center;
+    margin-left: 9%;
+}
+.certifications h3{
+    color:white;
+    margin-left:7%;
+    text-align:center;
+    font-family: cursive;
+}
+.certifications p{
+    color:blue;
+    margin-left: 7%;
+    text-align:center;
+    animation: animate 2s linear infinite;
+    font-weight:bold;
+    font-size:medium;
+}
+.certifications a{
+    text-decoration: none;
+    color:white;
+}
+.certifications a:hover{
+    font-size:22px;
+    text-decoration:underline;
+}
+@keyframes animate {
+            0% {
+                opacity: 0;
+            }
+  
+            50% {
+                opacity: 0.7;
+            }
+  
+            100% {
+                opacity: 0;
+            }
+        }
+        .certifications img{
+            position:absolute;
+            left:30%;
+            height:40%;
+            top:130%;
+            width:20%;
+            transform:translate(-45%);
+            border-radius: 50%;
+            margin-left:-10%;
+            margin-bottom:20%;
+        }
 .skills{
-    width: 100%;
-    background: url("https://wallpaperaccess.com/full/732270.png");
-    background-position:center;
-    height:100%;
-    position: relative;
-    margin-top:-40%;
+    margin-top:-5%;
+    margin-left:7%;
+    margin-right: 7%;
+    margin-bottom: 6%;
+    border:1px solid whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+    border-style: dotted;
 }
-.projects{
-    width: 100%;
-    background: url("https://wallpaperaccess.com/full/732270.png");
-    background-position:center;
-    height:100%;
-    position: relative;
-    margin-top:-47%;
+.skills h1{
+    color:yellow;
+    text-align: center;
+}
+.skills img{
+    margin-left:40%;
+    max-width: 4%;
+    max-height: 4%;
+}
+.skills h3{
+    text-align: right;
+    margin-top:-3%;
+    margin-right:36%;
+}
+.skills a{
+    color:aqua;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.skills a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.skills p{
+    color:white;
+    margin-left: 1%;
+    text-align:center;
+    animation: animate 2s linear infinite;
+    font-weight:bold;
+    font-size:medium;
 }
 .b{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.data1 h1{
-    color:aqua;
-}
-.data1 h2{
-    color:white;
-}
-.data1 h3{
-    color:yellow;
-}
 .intern{
-    width: 100%;
-    background: url("https://wallpaperaccess.com/full/732270.png");
-    background-position:center;
-    height:100%;
-    position: relative;
-    margin-top:-22%;
+    margin-top:-5%;
+    margin-left:7%;
+    margin-right: 7%;
+    border:1px solid whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+    border-style: dotted;
+}
+.intern h1{
+    color:yellow;
+    text-align: center;
+}
+.intern h3{
+    color:orange;
+    text-align: center;
+}
+.intern button{
+    color:black;
+    background-color:white;
+    height:4%;
+    width:14%;
+    border-radius: 25px 25px 25px 25px;
+}
+.intern a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 .contact{
-    width: 100%;
-    background: url("https://wallpaperaccess.com/full/732270.png");
-    background-position:center;
-    height:50%;
-    position: relative;
-    margin-top:-47%;
+    margin-top:1%;
+    margin-left:7%;
+    margin-right: 7%;
+    margin-bottom: 6%;
+    border:1px solid whitesmoke;
+    border-radius: 15px 15px 15px 15px;
+    border-style: dotted;
+}
+.contact h1{
+    color:yellow;
+    text-align: center;
+}
+.contact img{
+    margin-left:45%;
+    max-width: 4%;
+    max-height: 4%;
+}
+.contact h3{
+    color:white;
+    margin-top:-3%;
+    margin-left:50%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+}
+.contact a{
+    color:white;
+    text-decoration: none;
+}
+.contact a:hover{
+    color:blue;
+    text-decoration: underline;
 }
     </style>
     </head>
-    <body background="https://wallpaperaccess.com/full/732270.png" class="b">
+    <body bgcolor="black" class="b">
+        <div class="bd">
+        <h3>&lt;Portfolio&gt;</h3></div>
         <br>
         <div class="h">
         <a href="#">Home</a>
         <a href="#certifications">Certifications</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
         <a href="#intern">Internships</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Connect</a>
         </div>
-        <br><br><br>
         <div class="c">
-            <h1>I'm N.Lakshmi Chandana</h1>
-            <h2>Pursuing Btech 3rd year in the stream of <br>Computer Science and Engineering.</h2>
-            <h2>I seek challenging opportunities where I can fully <br>use my skills for the success of the organization.</h2>
-        </div>
-        <div class="i">
-        <img src="Chandu.jpg"></div>
+            <div class="s"><h1>I'm N.Lakshmi Chandana!</h1></div>
+            <div class="s1"><h2>Pursuing Btech 3rd year in the stream of <br>Computer Science and Engineering.</h2>
+            <h2>I seek challenging opportunities where I can <br>fully use my skills for the success of the organization.<br><br>
+            I am very Enthusiastic to work with web development<br> using HTML,CSS,JAVASCRIPT.<br><br>
+            And i developed some projects on web development.<br><br>I have basic knowledge in Java,Python,Data Structures.<br><br>
+            I continuously like to work with programming<br> platforms HackerRank,HackerEarth.</h2></div></div>
+        <div class="s2"><h2>View and Download My Portfolio Here<br><br><button><a href="https://drive.google.com/file/d/1Y68vH7TQKBBklfnNRd3gl2KYSdAJ8GiB/view?usp=sharing">Resume</a></button></h2></div>
         <div class="certifications" id="certifications">
-            <div class="data1">
             <h1>Certifications</h1>
-            <h3>Programming In Java - NPTEL	<br>
-                Basics Of Python - Infosys	<br>
-                Programming Using Java - Infosys	<br>
-                Programming Fundamentals Using Python - Infosys	<br>
-                Java(Basic) - HackerRank	<br>
-                Python(Basic) - HackerRank	<br>
-                Problem Solving Through Programming In C - NPTEL</h3></div>
-        </div>
-        <div class="skills" id="skills">	
-            <div class="data1">
-                <h1>Skills</h1>
-            <h3>I have reached gold level in java - HackerRank<br>
-            	I have reached gold level in python - HackerRank<br>
-                I have reached silver level in sql - HackerRank</h3></div>
-        </div>
-        <div class="projects" id="projects">
-            <div class="data1">
-            <h1>My Projects</h1>
-            <h2>Project 1</h2>
-            <h3>Title 		: Money Manager (Minor Project)<br>
-                Techonology : FullStack Using Python (HTML,CSS,MYSQL)<br>
-                Description : In this Web Application,I find the Savings of the users By using their income,<br>
-                it gives the output Visually to users,and it is most useful for the middle class people.</h3>
-            <h2>Project 2</h2>
-            <h3>Title   : Smart Cradle System(Minor Project)<br>
-                Technology : Internet Of Things(IOT)<br>
-                Description: In this Project,I implemented new features like when baby feels suffocate <br>
-                it produces a beep sound and also when there is a darkness during night time <br>
-                it automatically turn on the bulb which is attached to cradle<br>
-                I did prototype and I verified the Output.
-            </h3>
-            </div>
+            <p><i>**Click the text below to view Certificate**</i></p>
+            <h3><a href="https://drive.google.com/file/d/1Pz9CAFr38IRtjjFUIhBrkcQhsCXgw4hu/view">Programming In Java - NPTEL</a>	<br><br>
+                <a href="https://drive.google.com/file/d/1xy9eY8EI6kfH6Cq7gX_8tJ_wOCmfDOKi/view?usp=drive_link">Global Youth Social Innovation Challenge - talsCouts</a><br><br> 
+                <a href=https://infyspringboard.onwingspan.com/public-assets/infosysheadstart/cert/lex_auth_013204562301591552112_shared/1-9ed854e4-7ead-4927-b2cf-e1cafe3883b5.pdf">Basics Of Python - Infosys</a>	<br><br>
+                <a href="https://www.hackerrank.com/certificates/f2cbfd9717ee">Java(Basic) - HackerRank</a>	<br><br>
+                <a href="https://www.hackerrank.com/certificates/3261e48226dd">Python(Basic) - HackerRank</a>	<br><br>
+                <a href="https://www.hackerrank.com/certificates/f5fc4134c12d">Problem Solving(basic) - HackerRank</a><br><br>
+                <a href="https://internalapp.nptel.ac.in/NOC/NOC23/SEM1/Ecertificates/106/noc23-cs47/Course/NPTEL23CS47S3364114404193344.jpg">BlockChain and Its applications - NPTEL</a><br><br>
+                <a href="https://drive.google.com/file/d/1AfZ_ARnEOXcFHXWncRVYYf4ClH633k-C/view">Problem Solving Through Programming In C - NPTEL</a><br></h3></div>
+        <div class="skills" id="skills">
+                <h1>Technical Skills</h1>
+                <p><i>**Click the text below to view Certificate**</i></p><br>
+                <img src="hack.jpg">
+                <a href="https://www.hackerrank.com/namburulakshmic1?hr_r=1"><h3>HackerRank Profile</h3></a><br><br>
+                <img src="hack1.png">
+                <a href="https://www.hackerearth.com/@namburulakshmichandana2020"><h3>HackerEarth Profile</h3></a><br>
         </div>
         <div class="intern" id="intern">
-            <div class="data1">
                 <h1>Internships</h1>
-                <h3>AI-ML Virtual Internship - AWS<br>
-                    Fullstack using python Internship - MADBLOCKS </h3>
-            </div>
+                <h3>Web Developement and Designing - OASIS<br><br>
+                <button><a href="https://drive.google.com/file/d/1Y0z2rJDTQby6EiEmBla1Z8RiEKuWVzCZ/view">View Certificate</a></button><br><br>
+                 Fullstack using python Internship - MADBLOCKS<br><br>
+                <button><a href="https://drive.google.com/file/d/16xRVnhcNJVExZm0w2Gc9x7udK9yn-NlC/view">View Certificate</a></button><br><br>
+                AI-ML Virtual Internship - AWS<br><br>
+                <button><a href="https://drive.google.com/file/d/10putFDA9dj-vSg8N87q2lTd3fHK0cPRG/view">View Certificate</a></button></h3>
         </div>
         <div id="contact" class="contact">
-            <div class="data1">
-            <h1>Contact me at:</h1>
-            <h3>Mail: namburulakshmichandana2020@gmail.com<br>
-                Phone: +91 7093985989</h3><br>
+            <h1>Connect</h1>
+                <img src="link.png"><h3><a href="https://www.linkedin.com/in/lakshmi-chandana-namburu-780a5323a/">LinkedIn</a><br><br></h3>
+                <img src="git.webp"><h3><a href="https://github.com/lakshmi-chandana-namburu">GitHub</a>
+            </h3><br>
             </div>
         </div>
 
